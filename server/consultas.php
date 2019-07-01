@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-    $db = mysqli_connect('localhost', 'root', 'rootpassword', 'ProjectVHSYS', '3306');
+	include('db.php');
     
     if(isset($_POST['search']))
     {
